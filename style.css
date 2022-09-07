@@ -5,6 +5,9 @@
 }
 body {
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .red {
   width: 50px;
@@ -12,6 +15,8 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: red;
+  border: 2px solid black;
+  transition: 0.3s;
 }
 .blue {
   width: 50px;
@@ -19,6 +24,8 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: blue;
+  border: 2px solid black;
+  transition: 0.5s;
 }
 .green {
   width: 50px;
@@ -26,4 +33,12 @@ body {
   border-radius: 50%;
   position: absolute;
   background-color: green;
+  border: 2px solid black;
+  transition: 0.7s;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  margin-inline: auto;
 }
